@@ -1,0 +1,141 @@
+
+
+body {
+    margin: 0;
+    padding: 3rem;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ff5a5f;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    flex: 1;
+    margin: 10px;
+    padding: 2rem;
+}
+
+article img {
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer > div {
+    flex: 1;
+}
+
+
+
+#about,
+#services,
+#owner,
+#contact {
+    padding: 1rem;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    border-radius: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#about {
+  
+    background-image: url('./images/21e9ebf18fefdfb3ea508856641a2598.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#about article h1,
+#about article p,
+#services article p,
+#owner article p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#about article h1,
+#about article p,
+#services article p,
+#owner article p,
+#contact {
+    color: white;
+}
+
+#services article,
+#owner article,
+#contact {
+    border-radius: 2rem;
+    background-color: #ff5a5f;
+}
+
+#services article p,
+#owner article p,
+#contact a {
+    color: #fff;
+}
+
+#services article {
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+#services article:hover {
+    transform: scale(1.05); /* Scale the article on hover */
+}
+
+#contact:hover{
+    transform: scale(1.05); /* Scale the article on hover */
+}
+#owner:hover{
+    transform: scale(1.05); /* Scale the article on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    section {
+        display: block;
+    }
+}
+
+
+
